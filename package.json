@@ -1,0 +1,20 @@
+{
+  "name": "hack_day",
+  "version": "1.0.0",
+  "description": "HaCk DaY 2018 - Sherry, Sheela & Claudio",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"nodemon src/index.js\" \"nodemon src/service/service.js\" \"mongod\""
+  },
+  "devDependencies": {
+    "nodemon": "1.18.2",
+    "express": "4.16.3",
+    "axios": "0.18.0",
+    "body-parser": "1.18.3",
+    "concurrently": "3.5.0",
+    "mongodb": "3.0.10"
+  },
+  "author": "",
+  "license": "ISC"
+}
