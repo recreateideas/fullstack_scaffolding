@@ -1,9 +1,10 @@
 
 
-const dbControllers = require('./dbControllers');
-const queryControllers = require('./queryControllers');
+const { handleConnection } = require('./dbControllers');
+const { findProduct, saveProduct } = require('./queryControllers');
 
 module.exports = {
-    dbControllers,
-    queryControllers
+    findProduct,
+    saveProduct,
+    handleConnection,
 };

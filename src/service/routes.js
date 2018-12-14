@@ -1,5 +1,4 @@
-const { findProduct, saveProduct } = require('./controllers/queryControllers');
-const { handleConnection } = require('./controllers/dbControllers');
+const { findProduct, saveProduct, handleConnection } = require('./controllers/');
 var path = require("path");
 
 module.exports = (app) => {
